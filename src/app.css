@@ -1,0 +1,43 @@
+.imgs{
+  width: 175px;
+  height: 200px;
+  margin-top:15px;
+  margin-left: 15px;
+  border: 2px solid black;
+}
+.display{
+   display: flex;
+   flex-wrap: wrap;
+}
+.heading_style{
+  font-size: 35px;
+  border-bottom: 2px solid black;
+  padding: 2px; 
+  color: rgb(169, 0, 0);
+  text-align: center;
+  display: inline;
+}
+.cont{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+    justify-content: center;
+}
+.navbar{
+  border: 1px solid rgb(226, 234, 176);
+  background-color: azure;
+  border-radius: 10px;
+  padding: 0px 20px;
+}
+.btn-group_item {
+  border: 1.2px solid black;
+  border-radius: 15px; 
+  margin: 7px;
+  padding: 5px 23px; 
+  background-color: white;
+  color: black;
+}
