@@ -10,7 +10,8 @@ View a diverse selection of dishes suitable for each time of the day.
 Clickable navigation bar for easy access to breakfast, lunch, dinner, and all food categories.
 
 Responsive design for seamless browsing across devices.
-#v Technologies Used
+
+# Technologies Used
 REACT JS 
 
 HTML5
