@@ -3,17 +3,18 @@
   height: 200px;
   margin-top:15px;
   margin-left: 15px;
-  border: 2px solid black;
+  border: 2px solid rgb(255, 255, 255);
 }
 .display{
    display: flex;
    flex-wrap: wrap;
+
 }
 .heading_style{
   font-size: 35px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid rgb(255, 255, 255);
   padding: 2px; 
-  color: rgb(169, 0, 0);
+  color: rgb(255, 255, 255);
   text-align: center;
   display: inline;
 }
@@ -34,10 +35,23 @@
   padding: 0px 20px;
 }
 .btn-group_item {
-  border: 1.2px solid black;
+  border: 1.2px solid rgb(255, 255, 255);
   border-radius: 15px; 
   margin: 7px;
   padding: 5px 23px; 
   background-color: white;
-  color: black;
+  color: rgb(255, 255, 255);
+}
+
+
+*{
+  background-image: url("./images/bg.jpg") ;
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  
+}
+
+.card12 {
+  border: 2px solid rgb(255, 255, 255);
 }
