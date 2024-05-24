@@ -11,10 +11,8 @@
  justify-content: center;
 }
 .heading_style{
-  
-      font-family: 'Dancing Script', cursive;
-      font-size: 60px;
-      margin-bottom: 30px;
+  font-size: 35px;
+  border-bottom: 2px solid rgb(255, 255, 255);
   padding: 2px; 
   color: rgb(255, 255, 255);
   text-align: center;
