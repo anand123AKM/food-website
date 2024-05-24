@@ -12,6 +12,10 @@ const ButtonApi = [
     name: "evening",
   },
   {
+    category: "snacks",
+    name: "snacks",
+  },
+  {
     category: "dinner",
     name: "dinner",
   },

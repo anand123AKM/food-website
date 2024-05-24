@@ -18,10 +18,14 @@ import bread from "./images/bread.jpg";
 import roti from "./images/roti.jpg";
 import paneer from "./images/paneer.jpg";
 import fullthali from "./images/fullthali.jpg";
+import biskits from "./images/biskits.jpg";
+import candy from "./images/candy.jpg";
+import chips from "./images/chips.jpg";
+import choclates from "./images/choclates.jpg";
 
 const Api = [
   {
-    image:batase,
+    image: batase,
     title: "PANI PURI",
     disc: "Pani puri is a popular street food of India, where crisp fried dough balls are stuffed with potatoes, sprouts, spicy tangy water or sweet chutney.",
     cost: "10 Rs.",
@@ -57,7 +61,7 @@ const Api = [
     category: "breakfast",
   },
   {
-    image: samosa ,
+    image: samosa,
     title: "SAMOSA",
     disc: "A samosa is a fried or baked pastry with a savory filling, such as spiced potatoes, onions, peas, cheese and other ingredients. It may take different forms, including triangular, cone, or half-moon shapes",
     cost: "10 Rs.",
@@ -201,6 +205,42 @@ const Api = [
     offers: "Special Combo Offer Available",
     link1: "4.5",
     categoryL: "dinner",
+  },
+  {
+    image: biskits,
+    title: "BISCUITS",
+    disc: "Our biscuits are freshly baked, buttery, and delicious, perfect for breakfast, tea time, or a quick snack. Choose from a variety of flavors and shapes.",
+    cost: "10 Rs.",
+    offers: "10% OFF",
+    link1: "4.5",
+    category: "snacks",
+  },
+  {
+    image: candy,
+    title: "CANDY",
+    disc: "Our candy selection features a variety of sweet treats, including hard candies, gummies, chocolates, and more. Perfect for satisfying your sweet tooth.",
+    cost: "5 Rs.",
+    offers: "10% OFF",
+    link1: "4.5",
+    category: "snacks",
+  },
+  {
+    image: chips,
+    title: "CHIPS",
+    disc: "Our chips are crispy, crunchy, and delicious, perfect for snacking on the go. Choose from a variety of flavors, including classic, spicy, and more.",
+    cost: "10 Rs.",
+    offers: "10% OFF",
+    link1: "4.5",
+    category: "snacks",
+  },
+  {
+    image: choclates,
+    title: "CHOCOLATES",
+    disc: "Our chocolates are rich, creamy, and decadent, perfect for indulging your sweet tooth. Choose from a variety of flavors, including milk, dark, and white chocolate.",
+    cost: "20 Rs.",
+    offers: "10% OFF",
+    link1: "4.5",
+    category: "snacks",
   },
 ];
 
