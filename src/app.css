@@ -25,11 +25,13 @@
 }
 .nav{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
     justify-content: center;
 }
 .navbar{
-
+  display: flex;
+  flex-wrap: wrap;
   background-color: azure;
   border-radius: 10px;
   padding: 0px 10px;
@@ -38,7 +40,7 @@
 .btn-group_item {
   border: 1.2px solid rgb(255, 255, 255);
   border-radius: 15px; 
-  margin: 7px;
+  margin-left: 6px;
   padding: 5px 23px; 
   background-color: white;
   color: rgb(255, 255, 255);

@@ -18,7 +18,6 @@ const Buttons = ({ match }) => {
                       onClick={() => {
                         match(item.category);
                       }}
-                      colorScheme="gray"
                     >
                       {item.name}
                     </Button>
