@@ -1,22 +1,30 @@
 import React from "react";
 import ButtonApi from "./ButtonApi";
+import { Button, Stack, Wrap, WrapItem } from "@chakra-ui/react";
 
-const Button = ({ match }) => {
+const Buttons = ({ match }) => {
   return (
     <>
       <div className="nav">
         <div className="navbar">
           {ButtonApi.map((item, index) => {
             return (
-              <button
-                className="btn-group_item"
-                key={index}
-                onClick={() => {
-                  match(item.category);
-                }}
-              >
-                {item.name}
-              </button>
+              <Stack direction="column">
+                <Wrap spacing={4}>
+                  <WrapItem>
+                    <Button
+                      className="btn-group_item"
+                      key={index}
+                      onClick={() => {
+                        match(item.category);
+                      }}
+                      colorScheme="gray"
+                    >
+                      {item.name}
+                    </Button>
+                  </WrapItem>
+                </Wrap>
+              </Stack>
             );
           })}
         </div>
@@ -25,4 +33,4 @@ const Button = ({ match }) => {
   );
 };
 
-export default Button;
+export default Buttons;
