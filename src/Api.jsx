@@ -204,7 +204,7 @@ const Api = [
     cost: "100 Rs.",
     offers: "Special Combo Offer Available",
     link1: "4.5",
-    categoryL: "dinner",
+    category: "dinner",
   },
   {
     image: biskits,
